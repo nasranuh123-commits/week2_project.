@@ -45,8 +45,8 @@ while attempts > 0:
         print("Too High! Bring your guess down.")
     else:
         print("Too Low! Aim higher")
-        attempts = attempts - 1
-        print("Attempts remaining:", attempts)  
+attempts = attempts - 1
+print("Attempts remaining:", attempts)  
 
 
 if guess != secret_number and attempts == 0:
